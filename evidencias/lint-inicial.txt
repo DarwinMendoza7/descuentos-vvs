@@ -1,0 +1,16 @@
+
+> descuentos@1.0.0 lint
+> eslint src/
+
+
+C:\Users\Admin\Desktop\Verificación y Validación de Software\descuentos\src\descuentos.js
+  2:5   error    Unexpected var, use let or const instead  no-var
+  3:15  error    Expected '===' and instead saw '=='       eqeqeq
+  3:24  error    Expected { after 'if' condition           curly
+  4:27  error    Expected { after 'if' condition           curly
+  4:27  warning  Unexpected console statement              no-console
+  5:5   error    Unexpected var, use let or const instead  no-var
+
+✖ 6 problems (5 errors, 1 warning)
+  4 errors and 0 warnings potentially fixable with the `--fix` option.
+
