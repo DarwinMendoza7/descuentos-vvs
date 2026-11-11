@@ -6,7 +6,7 @@
 |----|--------------------|----------|---------|-----------|-----------|--------|
 | R-01 | El descuento debe calcularse rápidamente | "Rápidamente" es subjetivo, no hay umbral medible  | No se puede verificar; discusiones entre equipo y cliente | RF-01: responder en menos de 50 ms para 1000 invocaciones (umbral por confirmar) | docs/requisitos.md (sección 2)| Pendiente de confirmar |
 | R-02 | Los clientes importantes obtendrán un descuento especial | "Importantes" y "especial" no están definidos | Se implementa un criterio equivocado (en el código se sumó un 10 arbitrario) | RF-02: Si esVip es true, se aplica un descuento adicional de X puntos porcentuales | docs/requisitos.md (sección 2) | Pendiente de confirmar |
-| R-03 | El descuento no puede superar el precio, excepto en promociones | No se define "promoción" ni cómo se identifica | Totales negativos o bloqueo de promociones legítimas | RF-03: el descuento no supera el precio salvo que esPromocion sea true | docs/requisitos.md (sección 2) | Propuesto |
+| R-03 | El descuento no puede superar el precio, excepto en promociones | No se define "promoción" ni cómo se identifica | Totales negativos o bloqueo de promociones legítimas | RF-03: el descuento no supera el precio salvo que esPromocion sea true | docs/requisitos.md (sección 2) | Pendiente de confirmar |
 | R-04 | Se debe mostrar el resultado correcto | "Correcto" no tiene criterio de aceptación | No se puede diseñar pruebas | RF-04: total con 2 decimales y nunca negativo fuera de promoción | docs/requisitos.md (sección 2) | Propuesto |
 
 ## 2. Requisitos funcionales verificables
