@@ -18,9 +18,9 @@
 | ID | Origen | Hallazgo | Severidad | Evidencia | Acción | Estado |
 |----|--------|----------|-----------|-----------|--------|--------|
 | H-01 | ESLint | Uso de "var" en lugar de "let"/"const" | Media | lint-inicial.txt, líneas 2:5 y 5:5 ("no-var") | Reemplazar por "let" y "const" | Corregido |
-| H-02 | ESLint | Comparación con "==" en lugar de "===" | Media | lint.inicial.txt, línea 3:15 ("eqeqeq") | Usar "===" | Corregido |
-| H-03 | ESLint | "if" sin llaves | Media | lint.inicial.txt, líneas 3:24 y 4:27 ("curly") | Añadir llaves | Corregido |
-| H-04 | ESLint | "console.log" en lógica de negocio | Baja | lint.inicial.txt, línea 4:27 ("no-console")  | Mantener hasta definir el manejo de porcentaje inválido | Pendiente de confirmar |
+| H-02 | ESLint | Comparación con "==" en lugar de "===" | Media | lint-inicial.txt, línea 3:15 ("eqeqeq") | Usar "===" | Corregido |
+| H-03 | ESLint | "if" sin llaves | Media | lint-inicial.txt, líneas 3:24 y 4:27 ("curly") | Añadir llaves | Corregido |
+| H-04 | ESLint | "console.log" en lógica de negocio | Baja | lint-inicial.txt, línea 4:27 ("no-console")  | Mantener hasta definir el manejo de porcentaje inválido | Pendiente de confirmar |
 | H-05 | Revisión humana | El valor de "10" es un número mágico y ambiguo (¿unidades o puntos porcentuales?) | Alta | Línea 3: "descuento + 10"; supuesto 1 de requisitos.md | Confirmar con negocio y usar una constante con nombre | Pendiente de confirmar |
 | H-06 | Revisión humana | Con "porcentaje > 100" solo se escribe un mensaje y el cálculo continúa, por lo que el total puede ser negativo | Alta | Línea 4 y Línea 5; contradice RF-03 y RF-04 | Definir el comportamiento (error o tope) | Pendiente de confirmar |
 | H-07 | Revisión humana | No existe el caso de promoción del R-03 (falta el parámetro "esPromocion") | Alta | La firma solo recibe 3 parámetros; supuesto 3 | Implementar RF-03 cuando se confirme el criterio | Pendiente de confirmar |
