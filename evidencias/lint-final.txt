@@ -1,0 +1,10 @@
+
+> descuentos@1.0.0 lint
+> eslint src/
+
+
+C:\Users\Admin\Desktop\Verificación y Validación de Software\descuentos\src\descuentos.js
+  7:9  warning  Unexpected console statement  no-console
+
+✖ 1 problem (0 errors, 1 warning)
+
